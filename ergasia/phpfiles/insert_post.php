@@ -1,0 +1,9 @@
+<?php
+date_default_timezone_set('Europe/Athens');
+session_start();
+include "conndb.php";$date = date('Y-m-d H:i:s');
+$userid=$_SESSION['userid'];
+$content=$_GET['message'];			  
+$name=$_SESSION['name'];   $result = mysqli_query($conn,"SELECT post_count FROM users  where username='$_SESSION[username]' "); 		 while($row = mysqli_fetch_array($result)) //μετατροπή των στοιχείων εγγραφής σε ένα Array					{						if($row['post_count']<3) //elenxo to post count						{							$sql="insert into posts(userid,content,date,name) values('$userid','$content','$date','$name')" ; 											mysqli_query($conn,$sql);							$sql2="SELECT * FROM posts ORDER by postid DESC;" ;		    							$result = mysqli_query($conn,$sql2); 							if(!$result)							{								die('i eggrafh apetixe'.mysql_error());							}		 							while($row = mysqli_fetch_array($result))							{     									echo "<div class='col'><p>";										echo "<div class='comment-box'><p>";											  echo "<div class='name'>Name: ". $row['name']. "</div>";											  echo "<div class='name'> Date: ".$row['date']."</div><br><br>";											  echo "<div class='content'>". $row['content']."<br><br><br></div>";					  					  											?>											<form name='form2'  method="POST" action="comments.php">											  <input type="hidden" name="postid" value="<?php echo $row['postid']?>">											  											  <input type="submit" class='butt' value='view post' />											  											  											</form>										   											<?php									    echo "</p></div>";									echo "</div>";							} 							header("Location: ../posts.php");                        }					}
+
+?>

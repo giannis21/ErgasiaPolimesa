@@ -1,0 +1,91 @@
+  div.name{
+	  background: linear-gradient(to bottom right, blue, grey);
+	  float:left;
+	  box-shadow: 3px 5px 8px #00FFFF;
+	  top:0px;
+	  padding:4px;
+	  margin-top:3px;
+	  margin-right:3px;
+	  border:solid;
+	  border-color:black;
+	  border-width:1px;
+	  text-shadow: 2px 2px #000000;
+	  border-radius:10px;
+  }
+   div.content{
+		
+		box-shadow: 3px 5px 8px #00FFFF;
+		border-color:black;
+	    font-size: 200%;
+		margin-top:30px;
+	    border-width:1px;
+	    text-shadow: 2px 2px #000000;
+		padding-left:6px;
+		padding-right:6px;
+		background: linear-gradient(to bottom right, black, #4169E1);
+		border-radius:40px;
+		overflow-wrap: break-word;
+		
+  }
+   div.content1{
+		
+		box-shadow: 3px 5px 8px #00FFFF;
+		 border-color:black;
+	     border-width:1px;
+	    text-shadow: 2px 2px #000000;
+		background: linear-gradient(to bottom right, black, #4169E1);
+		border-radius:40px;
+		overflow-wrap: break-word;
+		
+  }
+  div.date{
+		float:right;
+		box-shadow: 3px 5px 8px #00FFFF;
+		 border-color:black;
+	     border-width:1px;
+	    text-shadow: 2px 2px #000000;
+		background: linear-gradient(to bottom right, blue, grey);
+		bottom:0px;
+  }
+  .butt{
+	  font-size:15px;
+	  border-radius:15px;
+	  background: linear-gradient(to bottom right, black, #4169E1);
+	  text-shadow: 2px 2px #000000;
+	  box-shadow: 5px 10px 18px  #48D1CC;
+      border: none;
+      color: white;
+	  position:fixed;
+	  padding: 5px 15px; 
+	  cursor:pointer;
+	  margin:10px;
+	  
+  }
+  
+    .butt_post{
+	  font-size:15px;
+	  border-radius:15px;
+	  background: linear-gradient(to bottom right, black, #4169E1);
+	  text-shadow: 2px 2px #000000;
+	  box-shadow: 5px 10px 18px  #48D1CC;
+      border: none;
+      color: white;
+	  
+	  padding: 5px 15px; 
+	  cursor:pointer;
+	  margin:10px;
+	  
+  }
+ .butt:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+.butt:hover {
+    background-color: black;
+    color: white;
+}
+  div.col{
+	  #8E7671;
+  }

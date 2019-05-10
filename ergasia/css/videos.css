@@ -1,0 +1,63 @@
+
+div.uploadf {
+	 background: linear-gradient(to bottom right, black, #4169E1);
+	text-shadow: 2px 2px #000000;
+	box-shadow: 0px 10px 18px  #48D1CC;
+	background-color: #00008B;
+	width:60%;
+	margin-left:20%;
+	border-radius:10px;
+	font-size:15px;
+	color:white;
+}
+ .buttv{
+	  
+	  font-size:15px;
+	  border-radius:15px;
+	  background: linear-gradient(to left , #4d79ff,gray);
+	  text-shadow: 2px 2px #000000;
+	  margin-bottom:4px;
+      border: none;
+      color: white;
+	  padding: 5px 15px; 
+	  cursor:pointer;
+	 
+	  
+  }
+div.details {
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 0px 10px 18px  #48D1CC;
+	background: linear-gradient(to bottom right, black, #4169E1);
+	width:60%;
+	text-shadow: 2px 2px #000000;
+	margin-left:20%;
+	border-radius:20px;
+	font-size:20px;
+	color:white;
+	height:auto;
+}
+
+div.infor{
+	margin-left:32%;
+	border: 1px solid;
+    padding: 10px;
+    box-shadow: 0px 10px 18px  #48D1CC;
+	background: linear-gradient(to bottom right, black, #4169E1);
+	text-shadow: 1px 2px #000000;
+	border-radius:20px;
+	font-size:16px;
+	color:white;
+	font-weight:bold;
+	height:auto;
+	width:30%;
+}
+
+h3 {
+	margin-left:3%;
+	margin-top:2%;
+}
+
+video {
+	box-shadow: 0px 10px 18px  #48D1CC;
+}

@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+.msg{
+box-shadow: 0px 10px 18px #00FFFF;
+
+ width:50%;
+
+ padding-left:15px;
+
+ padding-right:15px;
+
+ padding-top:7px;
+
+ padding-bottom:7px;
+
+ background-color:rgba(0, 0, 50, 1);
+
+ border-radius:10px;
+
+ font-size:20px;
+
+ font-family:Georgia, "Times New Roman", Times,serif;
+
+}
+
+
+.button {
+     background: linear-gradient(to bottom right, black, #4169E1);
+	box-shadow: 5px 10px 18px  #48D1CC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+	color: #EDC745;
+}
+ .butt1{
+		
+	  font-size:30px;
+	  border-radius:15px;
+	  background: linear-gradient(to bottom right, black, #4169E1);
+	  text-shadow: 2px 2px #000000;
+	  box-shadow: 5px 10px 18px  #48D1CC;
+      border: none;
+      color: white;
+	  padding: 5px 15px; 
+	  cursor:pointer;
+	  align:center;
+	  
+  }
